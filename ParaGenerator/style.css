@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(44, 43, 43);
+}
+body{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+}
+.container{
+    background-color: white;
+}
+.container>h1{
+    background-color: white;
+    padding: 50px;
+}
+.paras{
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(235, 230, 230);
+    padding: 10px;
+    word-spacing: 2px;
+    border-radius: 10px;
+}
+.container>.inputbox{
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(230, 225, 225);
+    color: black;
+    padding: 20px;
+}
+.container>.mybtn{
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mybtn:hover{
+    background-color: rgb(47, 84, 153);
+    transition: background-color 0.5s ;
+}
